@@ -1,0 +1,47 @@
+# ==========================================
+# 1. ARCHIVOS DE DATOS Y BASES DE DATOS (No subir a GitHub)
+# ==========================================
+data/
+*.csv
+*.tsv
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.sqlite
+*.db
+
+# ==========================================
+# 2. CLAVES, VARIABLES DE ENTORNO Y SECRETOS
+# ==========================================
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# ==========================================
+# 3. ENTORNO VIRTUAL DE PYTHON
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# 4. ARCHIVOS TEMPORALES Y CACHÉ
+# ==========================================
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ==========================================
+# 5. SISTEMA OPERATIVO Y IDEs
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
